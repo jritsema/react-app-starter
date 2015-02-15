@@ -1,0 +1,22 @@
+{
+  "name": "react-app-starter",
+  "version": "1.0.0",
+  "description": "Starter template for a react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jritsema/react-app-starter.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "John Ritsema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jritsema/react-app-starter/issues"
+  },
+  "homepage": "https://github.com/jritsema/react-app-starter"
+}
