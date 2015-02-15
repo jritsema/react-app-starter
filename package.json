@@ -4,7 +4,8 @@
   "description": "Starter template for a react app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/browserify -t reactify src/App.jsx > build/bundle.js",
+    "start": "nodemon --exec npm run build -e jsx"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,13 @@
   ],
   "author": "John Ritsema",
   "license": "MIT",
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "reactify": "^1.0.0"
+  },  
   "bugs": {
     "url": "https://github.com/jritsema/react-app-starter/issues"
   },
